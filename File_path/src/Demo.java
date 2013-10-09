@@ -18,8 +18,6 @@ public class Demo {
 		// TODO Auto-generated method stub
 
 		ArrayList<String> arr= new ArrayList<String>();
-		String ma ="tran     van     do";
-		
         String file1 = "C:\\scanned72.dat";
         //reading   
         try{
@@ -33,7 +31,6 @@ public class Demo {
               arr.add(line+"\n");
             }
             br.close(); 
-            String[] temp=ma.split("     ");
             System.out.print(arr);
         	
         }       
